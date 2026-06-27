@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List, Table & Forms</title>
+</head>
+<body>
+    <h3>This is List</h3>
+    <ol>
+        <li>This is list Item 1st</li>
+        <ol type="i">
+            <li>level a</li>
+            <li>level b</li>
+        </ol>
+        <li>This is list Item 2nd</li>
+
+        <ul>
+            <li>This is unordered list</li>
+        </ul>
+
+        <li>This is list Item 3rd</li>
+        <li>This is list Item 4th</li>
+        <li>This is list Item 5th</li>
+    </ol>
+
+    <h3>This is Table</h3>
+    <table border="2">
+
+        <caption>This is Caption.</caption>
+        <tr>
+            <th>1st heading</th>
+            <th>2nd heading</th>
+            <th>3rd heading</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+        </tr>
+
+        <tr>
+            <td colspan="3" align="center">This cell spans 3 coloumn</td>
+        </tr>
+    </table>
+
+    <h3>This is Forms</h3>
+    <form action="https://www.google.com/" method="get">
+
+        <label for="username">Username: </label>
+        <input type="text" id="username" placeholder="Email" required="true">
+        <br>
+        <br>
+        <label for="password">Password: </label>
+        <input type="password" id="Password" placeholder="Enter password"> 
+        
+        <br> <br>
+        <label for="Date">Date:</label>
+        <input type="date" id="Date">
+        
+        <br> <br>
+        <label for="file">File:</label>
+        <input type="file" id="file">
+
+        <br><br>
+        <label for="colour">Colour:</label>
+        <input type="color" id="colour">
+
+        <br><br>
+        <label for="range">Range:</label>
+        <input type="range" id="range">
+        <input type="submit" value="submit">
+    </form>
+
+    <h3>This is radio button</h3>
+    <form action="" >
+        <label for="male">Male:</label>
+        <input type="radio" name="Gender" value="male" id="male"> <br>
+        <label for="female">Female:</label>
+        <input type="radio" name="Gender" value="female" id="female"> <br>
+        <label for="other">Other:</label>
+        <input type="radio" name="Gender" value="other" id="other"><br>
+    </form>
+
+    <h3>This is Checkbox</h3>
+    <form action="">
+        <label for="C">C:</label>
+        <input type="checkbox" name="lang" id="C">
+        <label for="Java">Java:</label>
+        <input type="checkbox" name="lang" id="Java">
+        <label for="Python">Python:</label>
+        <input type="checkbox" name="lang" id="Python">
+    </form>
+
+    <h3>This is Dropdown</h3>
+    <form action="">
+        <label for="country">Select your Country</label>
+        <select name="country" id="country">
+            <option value="India">INDIA</option>
+            <option value="PAK">PAK</option>
+            <option value="China">CHINA</option>
+            <option value="USA">USA</option>
+        </select>
+    </form>
+
+    <h3>This is Text Area</h3>
+    <textarea rows="4" cols="40" name="story" id="story">
+        Default TEXT here 
+    </textarea>
+
+    <h3>This is iFrame</h3>
+    <iframe height="300" src="https://www.youtube.com/embed/rklidcZ-aLU" title="🚀 🔥 HTML Complete Course (2024) for Beginners | Projects | Notes | Github | Certification" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <iframe src="" frameborder="0"></iframe>
+
+</body>
+</html>
